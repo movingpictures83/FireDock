@@ -1,0 +1,2 @@
+Prefix plugins/FireDock/example/
+Plugin FireDock inputfile FireDock_params.txt outputfile none

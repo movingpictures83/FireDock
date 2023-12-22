@@ -1,0 +1,52 @@
+After Refinement: 
+########### Program Parameters ##################
+ACEWeight	(Str)	1.6
+HBWeight	(Str)	1.32
+aliphWeight	(Str)	0.5
+attrElWeight	(Str)	0.07
+attrVdWWeight	(Str)	1.0
+catpiWeight	(Str)	0.8
+confProbWeight	(Str)	0.0
+energiesOutFileName	(Str)	plugins/FireDock/example/1ACB.firedock.out
+extraRotamers	(Int)	0
+flexibleLigandChains	(Str)	
+flexibleReceptorChains	(Str)	
+insidenessWeight	(Str)	1.55
+l_attrElWeight	(Str)	0.0
+l_repElWeight	(Str)	0.3
+ligandFixedResiduesFile	(Str)	
+ligandFlexibleResiduesFile	(Str)	
+ligandOnlyClashesMovable	(Int)	1
+ligandPDBFileName	(Str)	plugins/FireDock/example/1ACB_l.pdb.CHB.pdb
+lpMethod	(Int)	2
+onlyEnergyCalculation	(Int)	0
+pdbConventionFile	(Str)	
+pipiWeight	(Str)	1.0
+printRefinedComplexes	(Int)	0
+protLib	(Str)	plugins/FireDock/example/chem.lib
+radiiScaling	(Str)	0.8
+receptorFixedResiduesFile	(Str)	
+receptorFlexibleResiduesFile	(Str)	
+receptorOnlyClashesMovable	(Int)	1
+receptorPDBFileName	(Str)	plugins/FireDock/example/1ACB_r.pdb.CHB.pdb
+repElWeight	(Str)	0.12
+repVdWWeight	(Str)	0.95
+rigidBodyMinimizationCycles	(Int)	50
+rotamerLibFile	(Str)	plugins/FireDock/example/bbdep02.May.sortlib
+templateLigandPDBFileName	(Str)	
+templateReceptorPDBFileName	(Str)	
+transFileName	(Str)	plugins/FireDock/example/1ACB.zdock.trans
+#################################################
+    Sol # |    Lrmsd |    Irmsd | st_Lrmsd | st_Irmsd |     glob |     aVdW |     rVdW |      ACE |   inside |    aElec |    rElec |   laElec |   lrElec |       hb |      piS |   catpiS |    aliph |     prob |
+1	|    17.65 |     7.98 |    17.87 |     8.02 |   -35.55 |   -42.51 |    21.38 |    -9.10 |    12.32 |   -18.60 |     0.00 |   -10.88 |     0.00 |    -7.03 |    -6.50 |    -1.00 |     0.00 |     0.00 |2.058805 0.180865 2.841250 11.030282 -2.854590 -8.923102
+2	|    38.61 |    10.62 |    38.27 |    10.58 |   -14.90 |   -35.37 |    28.00 |   -15.38 |    20.18 |   -36.24 |     2.37 |    -8.83 |     1.61 |    -5.89 |    -2.50 |     0.00 |    -1.50 |     0.00 |1.255685 -0.038109 -2.690311 42.773232 3.194026 6.210186
+3	|    17.60 |     7.94 |    17.20 |     7.69 |   -26.86 |   -44.99 |    31.76 |    -9.35 |     9.60 |    -4.70 |     0.00 |    -5.31 |     0.00 |    -3.58 |    -6.50 |    -0.50 |     0.00 |     0.00 |2.042661 0.160616 2.876533 12.485207 -2.576811 -9.057088
+4	|    37.37 |    10.36 |    37.54 |    10.28 |   -20.24 |   -36.37 |    18.19 |   -13.67 |    20.40 |   -14.28 |     2.73 |   -20.30 |     3.50 |    -7.21 |    -1.00 |     0.00 |    -1.50 |     0.00 |1.436702 0.008934 -2.526297 43.793568 3.888101 8.022617
+5	|    35.89 |    13.50 |    37.12 |    10.21 |    18.72 |    -6.45 |     0.10 |    -0.75 |    17.95 |     0.00 |     0.00 |     0.00 |     0.00 |    -1.17 |     0.00 |     0.00 |     0.00 |     0.00 |2.863171 -1.254247 2.547962 17.895184 -12.638520 50.540508
+6	|    37.37 |    10.39 |    37.11 |    10.13 |   -25.76 |   -37.63 |    17.98 |   -11.85 |    19.72 |   -30.36 |     0.00 |    -8.31 |     0.00 |    -8.67 |    -2.50 |     0.00 |    -1.50 |     0.00 |1.454013 -0.015771 -2.517308 44.506561 4.310275 8.794662
+7	|    17.75 |     7.88 |    17.24 |     7.61 |   -24.14 |   -45.63 |    39.58 |   -12.03 |     9.84 |    -3.36 |     0.00 |    -2.23 |     0.00 |    -4.16 |    -6.00 |    -0.50 |     0.00 |     0.00 |2.039406 0.145864 2.943805 13.875729 -2.101150 -8.367912
+8	|    14.99 |     6.71 |    16.43 |     7.08 |   -16.44 |   -32.64 |    23.36 |    -8.30 |    10.47 |     0.00 |     0.00 |     0.00 |     0.00 |    -2.23 |    -6.00 |     0.00 |     0.00 |     0.00 |2.153091 -0.545620 2.437918 10.278893 -8.232337 6.888472
+9	|    37.85 |    10.32 |    37.98 |    10.37 |    -9.39 |   -34.41 |    29.15 |   -14.23 |    20.39 |   -38.07 |     2.27 |    -8.08 |     1.92 |    -5.44 |    -1.50 |     0.00 |    -2.00 |     0.00 |1.254411 -0.087110 -2.564828 43.993664 7.432577 6.953510
+10	|    38.28 |    12.69 |    38.50 |    10.33 |    15.50 |    -7.16 |     1.38 |    -2.24 |    18.55 |     0.00 |     0.00 |     0.00 |     0.00 |    -1.95 |    -0.50 |     0.00 |    -1.50 |     0.00 |2.541974 0.398507 2.966676 36.129513 -22.135267 30.188240
+11	|    14.93 |     6.78 |    16.00 |     6.99 |   -27.22 |   -33.72 |    14.51 |    -6.09 |     9.42 |     0.00 |     0.00 |    -2.26 |     0.00 |    -4.27 |    -6.50 |     0.00 |     0.00 |     0.00 |2.276208 -0.557066 2.474038 10.251728 -8.567403 9.719088
+12	|    39.57 |    10.75 |    38.36 |    10.33 |    -6.49 |   -29.36 |    20.12 |    -8.47 |    18.44 |     0.00 |     0.00 |     0.00 |     0.00 |    -4.56 |    -4.50 |     0.00 |    -1.50 |     0.00 |1.100067 -0.575404 -2.301417 43.536938 22.443815 21.056067
